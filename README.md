@@ -1,7 +1,11 @@
-# Project-2 Batch Processing ETL Pipeline for Candy Store
+# Batch Processing ETL Pipeline for Candy Store
 
 This project implements batch processing logic to process raw order transactions at the end of each day. This process includes validating transaction details and verifying inventory levels to ensure successful order shipment. It also puts the daily sales and profit numbers into a time series forecasting model to predict future sales and profits.
 
+## Tools Used:
+![Python](https://img.shields.io/badge/Python-3.9-yellow) ![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-2.1.0-green) ![PySpark](https://img.shields.io/badge/PySpark-3.1.2-orange) ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue) ![MongoDB](https://img.shields.io/badge/MongoDB-4.2-lightgreen)
+
+---
 ## Setup Instructions
 ### 1. Environment Setup
 
