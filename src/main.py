@@ -175,80 +175,20 @@ def main():
         # 1.2 Load data from sources:
         print_database_load_name("MYSQL")
         # a. Customers Data from MySQL
-        customers_df = data_processor.load_mysql_data(
-            config["mysql_url"],
-            config["customers_table"],
-            config["mysql_user"],
-            config["mysql_password"],
-        )
-        print("Customer Data:")
-        customers_df.show(5)
-        customers_df.printSchema()
-        print(f"Dimensions: {customers_df.count()} x {len(customers_df.columns)} \n")
+        data_processor.load_customers()
 
         # b. Products Data from MySQL
-        products_df = data_processor.load_mysql_data(
-            config["mysql_url"],
-            config["products_table"],
-            config["mysql_user"],
-            config["mysql_password"],
-        )
-        print("Product Data:")
-        products_df.show(5)
-        products_df.printSchema()
-        print(f"Dimensions: {products_df.count()} x {len(products_df.columns)} \n")
+        data_processor.load_products()
+        data_processor.set_initial_inventory()
 
+        # 1.3 Load mongodb data in 10 dfs and display them and BATCH PROCESSING
         print_database_load_name("MONGO DB")
-        # 1.3 Load mongodb data in 10 dfs and display them
-        transaction_dataframes = {}
-        for i, date_str in enumerate(date_range):
-            # Construct collection name dynamically
-            collection_name = f"{config['mongodb_collection_prefix']}{date_str}" # print(config["mongodb_uri"], config["mongodb_db"]) # THE DEBUG LINE THAT SAVED MY MONGODB IMPORT:
-            try:
-                # Load the MongoDB collection into a DataFrame
-                print(f"Collection - {collection_name}:")
-                df = data_processor.load_mongo_data(
-                    config["mongodb_uri"], config["mongodb_db"], collection_name
-                )
-                df.show(5)
-                df.printSchema()
-                # Display Dimensions
-                print(f"Dimensions: {df.count()} x {len(df.columns)} \n")
-                transaction_dataframes[f"transaction_{i+1}"] = df
+        data_processor.load_mongo(config, date_range)
 
-            except Exception as e:
-                print(f"Failed to load data for {collection_name}: {e}")
-
-        print("Start batch processing for project 2!")
-
-        # """2. BATCH PROCESSING: 
-        # Transform transaction data into the orders table and order_line_items table.
-        # Extract orders and order_line_items from transactions."""
-        data_processor.initialize_products(products_df)
-        for name, transaction_df in transaction_dataframes.items():
-            data_processor.process(transaction_df)
-        # print("Orders DF:")
-        # orders_df = data_processor.process_orders(
-        #     customers_df, products_df
-        # )
-
-        # print("Order Line DF:")
-        # order_line_df = data_processor.process_order_line_df(
-        #      products_df
-        # )
-        # # Save to CSV files!
-        # data_processor.save_to_csv(orders_df, config["output_path"], "orders.csv")
-        # data_processor.save_to_csv(
-        #     order_line_df, config["output_path"], "order_line_items.csv"
-        # )
-
-        # print("Daily Summary:")
-        # daily_summary_df = data_processor.create_daily_summary(
-        #     orders_df, products_df
-        # )
-        # data_processor.save_to_csv(
-        #     daily_summary_df, config["output_path"], "daily_summary.csv"
-        # )
+        # data_processor.set_initial_inventory()
+        updated_inventory_df = data_processor.update_inventory_table()
+        updated_inventory_df = data_processor.sort_orders(updated_inventory_df)
+        data_processor.save_outputs(config, updated_inventory_df)
 
         # Generate forecasts
         try:
@@ -258,7 +198,12 @@ def main():
             # - num_orders: integer - Total number of orders for the day
             # - total_sales: decimal(10,2) - Total sales amount for the day
             # - total_profit: decimal(10,2) - Total profit for the day
-            forecast_df = data_processor.forecast_sales_and_profits(daily_summary_df)
+            forecast_df = data_processor.forecast_sales_and_profits(
+                data_processor.daily_summary_df
+            )
+            forecast_df = data_processor.format_values(
+                forecast_df
+            )  # added to truncate extra values after decimal
             if forecast_df is not None:
                 data_processor.save_to_csv(
                     forecast_df, config["output_path"], "sales_profit_forecast.csv"
