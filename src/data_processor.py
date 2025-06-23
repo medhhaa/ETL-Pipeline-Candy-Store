@@ -1,14 +1,22 @@
-from pyspark.sql import SparkSession, DataFrame
-from pyspark.sql import functions as F
+from pyspark.sql import SparkSession, DataFrame, functions as F
 from pyspark.sql.functions import (
     explode,
     col,
     round as spark_round,
-    sum as spark_sum,
+    sum,
     count,
     abs as spark_abs,
-    when
+    lit,
 )
+from pyspark.sql.types import (
+    StructType,
+    StructField,
+    StringType,
+    IntegerType,
+    DoubleType,
+    DateType,
+)
+from pyspark.sql.window import Window
 from typing import Dict, Tuple
 import os
 import glob
@@ -25,7 +33,7 @@ class DataProcessor:
         self.spark = spark
         # Initialize all class properties
         self.config = None
-        self.current_inventory = None
+        self.current_inventory = {}
         self.inventory_initialized = False
         self.original_products_df = None  # Store original products data
         self.reload_inventory_daily = False  # New flag for inventory reload
@@ -37,7 +45,9 @@ class DataProcessor:
         self.order_line_items_df = None
         self.daily_summary_df = None
         self.total_cancelled_items = 0
-        self.joined_df = None # added
+        self.daily_orders_list = []
+        self.daily_order_items_list = []
+        self.daily_summary_list = []
 
     def configure(self, config: Dict) -> None:
         """Configure the data processor with environment settings"""
@@ -49,262 +59,6 @@ class DataProcessor:
             print("Daily inventory reload: ENABLED")
         else:
             print("Daily inventory reload: DISABLED")
-
-    # Add data to MySQL and MongoDB:
-    def save_csv_to_mysql(
-        self,
-        jdbc_url: str,
-        db_user: str,
-        db_password: str,
-        table_name: str,
-        csv_file_path: str,
-    ) -> None:
-        """
-        Save CSV data into a MySQL table using Spark.
-        :param jdbc_url: JDBC URL for the MySQL database
-        :param db_user: Database username
-        :param db_password: Database password
-        :param table_name: MySQL table name
-        :param csv_file_path: Path to the CSV file
-        """
-        try:
-            # Load the CSV file into a DataFrame
-            df = self.spark.read.option("header", "true").csv(csv_file_path)
-
-            # Save the DataFrame to the MySQL table using the 'overwrite' mode (use 'append' to add data)
-            df.write.format("jdbc").option("url", jdbc_url).option(
-                "driver", "com.mysql.cj.jdbc.Driver"
-            ).option("dbtable", table_name).option("user", db_user).option(
-                "password", db_password
-            ).mode(
-                "overwrite"
-            ).save()
-
-            print(f"Data successfully saved to MySQL table '{table_name}'")
-            # print(f"CSV data from {csv_file_path} saved to MySQL table {table_name}")
-        except Exception as e:
-            print(f"Error saving CSV to MySQL: {str(e)}")
-
-    # Load data from MySQL and MongoDB:
-    def load_mysql_data(
-        self, jdbc_url: str, db_table: str, db_user: str, db_password: str
-    ) -> DataFrame:
-        """
-        Load data from MySQL database.
-
-        :param jdbc_url: JDBC URL for the MySQL database
-        :param db_table: Name of the table to load data from
-        :param db_user: Database username
-        :param db_password: Database password
-        :return: DataFrame containing the loaded MySQL data
-        """
-        return (
-            self.spark.read.format("jdbc")
-            .option("url", jdbc_url)
-            .option("driver", "com.mysql.cj.jdbc.Driver")
-            .option("dbtable", db_table)
-            .option("user", db_user)
-            .option("password", db_password)
-            .load()
-        )
-
-    def load_mongo_data(
-        self, mongodb_uri, db_name: str, collection_name: str
-    ) -> DataFrame:
-        """
-        Load data from MongoDB.
-
-        :param db_name: Name of the MongoDB database
-        :param collection_name: Name of the collection to load data from
-        :return: DataFrame containing the loaded MongoDB data
-        """
-        # return (
-        #     self.spark.read.format("mongo")
-        #     .option("database", db_name)
-        #     .option("collection", collection_name)
-        #     .load()
-        # )
-        return (
-            self.spark.read.format("com.mongodb.spark.sql.DefaultSource")
-            .option("spark.mongodb.input.uri", mongodb_uri)
-            .option("spark.mongodb.input.database", db_name)
-            .option("spark.mongodb.input.collection", collection_name)
-            .load()
-        )
-
-
-    def explode_transactions(self, transactions_main):
-        """
-        Explodes the 'items' array in transactions DataFrame to get each product as a separate row for better function complexity.
-        This can be used by process_orders and process_order_line.
-        Filters out rows with null quantity or product_id.
-
-        Args:
-        transactions_df: DataFrame containing transaction data
-
-        Returns:
-        exploded_df: DataFrame with exploded 'items' and filtered out null quantities
-        """
-        
-        # Explode 'items' in transactions DataFrame to get each product as a separate row
-        transactions_main = transactions_main.withColumn(
-            "item", F.explode(transactions_main["items"])
-        )
-
-        # Select necessary columns and ensure no null quantity or product_id
-        exploded_df = transactions_main.select(
-            "transaction_id",
-            "customer_id",
-            "timestamp",
-            F.col("item.product_id").alias("product_id"),
-            F.col("item.product_name").alias("product_name"),
-            F.col("item.qty").alias("quantity"),
-        ).filter(F.col("quantity").isNotNull())
-
-        # Initialize transactions_df if it is None (first iteration)
-        if self.transactions_df is None:
-            self.transactions_df = exploded_df
-        else:
-            # Append to the existing DataFrame by union
-            self.transactions_df = self.transactions_df.unionByName(exploded_df)
-        # print("Dimensions FROM DATAPROCESSOR: ", self.transactions_df.count())
-        return exploded_df
-
-    def process_order_line_df(self, products_df):
-        """
-        Generates the 'order_line_items' DataFrame from transactions and product data.
-        - Explodes items, calculates line total for each item.
-
-        Args:
-        products_df: DataFrame containing product data
-
-        Returns:
-        order_line_items_df: DataFrame with order line details
-        """
-
-        # Join with products to get the unit price (sales_price) and calculate line total in a single step
-        order_line_items_df = (
-            self.transactions_df.join(
-                products_df,
-                self.transactions_df["product_id"] == products_df["product_id"],
-                "inner",
-            )
-            .select(
-                F.col("transaction_id").alias("order_id"),
-                self.transactions_df.product_id,
-                "quantity",
-                F.col("sales_price")
-                .cast("float")
-                .alias("unit_price"),  # Cast sales_price to float
-            )
-            .filter(
-                F.col("unit_price").isNotNull()
-            )  # Filter out rows with null unit_price
-            .withColumn(
-                "line_total", F.round(F.col("quantity") * F.col("unit_price"), 2)
-            )  # Calculate line_total
-            .select(
-                "order_id", "product_id", "quantity", "unit_price",
-                F.format_number("line_total", 2).alias("line_total"), 
-            )  # Select final columns
-            .orderBy("order_id", "product_id")  # Sort by order_id and product_id
-        )
-
-        # Show first 5 rows of the result
-        order_line_items_df.show(5)
-
-        return order_line_items_df
-
-    def create_daily_summary(self, orders_df, products_df):
-        """
-        Creates a daily summary table that includes:
-        - Date
-        - Number of orders
-        - Total sales (total amount of orders)
-        - Total profit (total sales - total cost)
-
-        Args:
-        orders_df: DataFrame containing orders data (including order details like order_datetime, total_amount)
-        products_df: DataFrame containing product data (including sales_price and cost_to_make)
-
-        Returns:
-        daily_summary_df: DataFrame containing daily order statistics
-        """
-        # Join with products to get sales price (unit price) and ensure no null sales_price
-        transactions_with_products_df = (
-            self.transactions_df.join(
-                products_df,
-                self.transactions_df["product_id"] == products_df["product_id"],
-                "left",
-            )
-            .select(
-                "transaction_id",
-                "customer_id",
-                "timestamp",
-                self.transactions_df.product_id,
-                self.transactions_df.product_name,
-                "quantity",
-                F.col("sales_price")
-                .cast("float")
-                .alias("sales_price"),  # Cast to float
-            )
-            .filter(
-                F.col(
-                    "sales_price"
-                ).isNotNull()  # Filter out rows where sales_price is null
-            )
-        )
-        # Assuming 'timestamp' column is in the format 'yyyy-MM-ddTHH:mm:ss.SSSSSS'
-        orders_df = orders_df.withColumn(
-            "datetime",
-            F.to_timestamp(F.col("order_datetime"), "yyyy-MM-dd'T'HH:mm:ss.SSSSSS"),
-        )
-        # Extract order_date from order_datetime
-        orders_df = orders_df.withColumn(
-            "date", F.to_date(F.col("datetime"), "yyyy-MM-dd")
-        )
-
-        # Join orders_df with transactions_with_products_df to retain product_id
-        orders_with_products_df = orders_df.join(
-            transactions_with_products_df,
-            orders_df["order_id"] == transactions_with_products_df["transaction_id"],
-            "left",
-        )
-
-        # Join with products_df to get cost and sales_price
-        orders_with_cost_df = orders_with_products_df.join(
-            products_df,
-            orders_with_products_df["product_id"] == products_df["product_id"],
-            "left",
-        ).select(
-            ("date"),
-            "total_amount",  # Total sales per order
-            F.col("cost_to_make").alias("cost"),  # Cost per product
-            orders_with_products_df.product_id,
-            "quantity",
-        )
-
-        # Calculate total sales, total profit, and number of orders per day
-        daily_summary_df = (
-            orders_with_cost_df.groupBy("date")
-            .agg(
-                F.count("total_amount").alias("num_orders"),  # Number of orders per day
-                F.round(F.sum("total_amount"), 2).alias(
-                    "total_sales"
-                ),  # Total sales per day
-                F.round(
-                    F.sum(F.col("total_amount") - F.col("cost") * F.col("quantity")), 2
-                ).alias(
-                    "total_profit"
-                ),  # Total profit per day
-            )
-            .orderBy("date")
-        )
-
-        # Show the daily summary table
-        daily_summary_df.show(truncate=False)
-
-        return daily_summary_df
 
     def finalize_processing(self) -> None:
         """Finalize processing and create summary"""
@@ -465,6 +219,356 @@ class DataProcessor:
             forecast_rows, ["date", "forecasted_sales", "forecasted_profit"]
         )
 
+    # added function
+    def format_values(self, forecast_df):
+        forecast_df = forecast_df.select(
+            "date",
+            F.round("forecasted_sales", 2).alias("forecasted_sales"),
+            F.round("forecasted_profit", 2).alias("forecasted_profit"),
+        )
+        print("Forecasted Profit: ")
+        forecast_df.show(5)
+        return forecast_df
+
+    # --------------------------------------------------------------------------------------------------------------------
+    # Load data:
+
+    # Add data to MySQL and MongoDB:
+    def save_csv_to_mysql(
+        self,
+        jdbc_url: str,
+        db_user: str,
+        db_password: str,
+        table_name: str,
+        csv_file_path: str,
+    ) -> None:
+        """
+        Save CSV data into a MySQL table using Spark.
+        :param jdbc_url: JDBC URL for the MySQL database
+        :param db_user: Database username
+        :param db_password: Database password
+        :param table_name: MySQL table name
+        :param csv_file_path: Path to the CSV file
+        """
+        try:
+            # Load the CSV file into a DataFrame
+            df = self.spark.read.option("header", "true").csv(csv_file_path)
+
+            # Save the DataFrame to the MySQL table using the 'overwrite' mode (use 'append' to add data)
+            df.write.format("jdbc").option("url", jdbc_url).option(
+                "driver", "com.mysql.cj.jdbc.Driver"
+            ).option("dbtable", table_name).option("user", db_user).option(
+                "password", db_password
+            ).mode(
+                "overwrite"
+            ).save()
+
+            print(f"Data successfully saved to MySQL table '{table_name}'")
+            # print(f"CSV data from {csv_file_path} saved to MySQL table {table_name}")
+        except Exception as e:
+            print(f"Error saving CSV to MySQL: {str(e)}")
+
+    # Load data from MySQL and MongoDB:
+    def load_mysql_data(
+        self, jdbc_url: str, db_table: str, db_user: str, db_password: str
+    ) -> DataFrame:
+        """
+        Load data from MySQL database.
+
+        :param jdbc_url: JDBC URL for the MySQL database
+        :param db_table: Name of the table to load data from
+        :param db_user: Database username
+        :param db_password: Database password
+        :return: DataFrame containing the loaded MySQL data
+        """
+        return (
+            self.spark.read.format("jdbc")
+            .option("url", jdbc_url)
+            .option("driver", "com.mysql.cj.jdbc.Driver")
+            .option("dbtable", db_table)
+            .option("user", db_user)
+            .option("password", db_password)
+            .load()
+        )
+
+    def load_products(self):
+        self.products_df = self.load_mysql_data(
+            self.config["mysql_url"],
+            self.config["products_table"],
+            self.config["mysql_user"],
+            self.config["mysql_password"],
+        )
+        print("Product Data:")
+        self.products_df.show(5)
+        self.products_df.printSchema()
+        print(
+            f"Dimensions: {self.products_df.count()} x {len(self.products_df.columns)} \n"
+        )
+
+    def load_customers(self):
+        self.customers_df = self.load_mysql_data(
+            self.config["mysql_url"],
+            self.config["customers_table"],
+            self.config["mysql_user"],
+            self.config["mysql_password"],
+        )
+        print("Customers Data:")
+        self.customers_df.show(5)
+        self.customers_df.printSchema()
+        print(
+            f"Dimensions: {self.customers_df.count()} x {len(self.customers_df.columns)} \n"
+        )
+
+    def load_mongo_data(
+        self, mongodb_uri, db_name: str, collection_name: str
+    ) -> DataFrame:
+        """
+        Load data from MongoDB.
+
+        :param db_name: Name of the MongoDB database
+        :param collection_name: Name of the collection to load data from
+        :return: DataFrame containing the loaded MongoDB data
+        """
+        return (
+            self.spark.read.format("com.mongodb.spark.sql.DefaultSource")
+            .option("spark.mongodb.input.uri", mongodb_uri)
+            .option("spark.mongodb.input.database", db_name)
+            .option("spark.mongodb.input.collection", collection_name)
+            .load()
+        )
+
+    def load_mongo(self, config, date_range):
+        for i, date_str in enumerate(date_range):
+            # Construct collection name dynamically
+            collection_name = f"{config['mongodb_collection_prefix']}{date_str}"  # print(config["mongodb_uri"], config["mongodb_db"]) # THE DEBUG LINE THAT SAVED MY MONGODB IMPORT:
+
+            # Load the MongoDB collection into a DataFrame
+            print(f"Collection - {collection_name}:")
+            df = self.load_mongo_data(
+                config["mongodb_uri"], config["mongodb_db"], collection_name
+            )
+            df.show(5)
+            df.printSchema()
+            # Display Dimensions
+            print(f"Dimensions: {df.count()} x {len(df.columns)} \n")
+            # Batch Processing
+            self.process_daily_transactions(df)
+
+    # ----------------------- Batch Process ------------------------------------------------------------------------------------
+
+    def set_initial_inventory(self) -> None:
+        """
+        Initialize current_inventory from products_df.
+        Convert products_df to a dictionary for easy lookup and update.
+        """
+        products = self.products_df.collect()
+        for row in products:
+            self.current_inventory[int(row["product_id"])] = {
+                "product_name": row["product_name"],
+                "current_stock": int(row["stock"]),
+                "unit_price": row["sales_price"],
+                "cost_to_make": row["cost_to_make"],
+            }
+
+        self.inventory_initialized = True
+        print("\nINITIAL INVENTORY SET:")
+        for id, inv in self.current_inventory.items():
+            print(f"Product ID: {id}, Stock in Inventory: {inv['current_stock']}")
+
+    #  generate orders, order_line, daily_summary
+    def generate_orders_line_summary(self, transactions_df: DataFrame) -> None:
+        """
+        Process transactions for a single day.
+        Create orders and order_line_items from the transactions.
+        Update inventory based on orders.
+        Generate daily summary.
+        """
+        orders = []
+        order_line_items = []
+
+        transactions = transactions_df.collect()
+
+        # Track total sales & profit for each day
+        daily_sales = 0.0
+        daily_profit = 0.0
+
+        for trans in transactions:
+            order_id = trans["transaction_id"]
+            customer_id = trans["customer_id"]
+            order_datetime = trans["timestamp"]
+            items = trans["items"]
+
+            order_total = 0.0
+            order_profit = 0.0
+            num_item = 0
+
+            flag = 0  # to check if for same order_id, there is any order placed.
+            for item in items:
+                product_id = item["product_id"]
+                quantity = item["qty"]
+
+                if quantity is None:  # Ignore items with null quantity
+                    continue
+
+                if (
+                    product_id not in self.current_inventory
+                ):  # Check if product exists in current_inventory
+                    continue
+
+                product_info = self.current_inventory[product_id]
+                current_stock = int(product_info["current_stock"])
+                unit_price = float(product_info["unit_price"])
+                cost_to_make = float(product_info["cost_to_make"])  # for profit
+                product_name = product_info["product_name"]
+
+                line_total = 0.0
+                line_profit = 0.0
+
+                # Dynamically update the quantity for each row
+                if current_stock >= quantity:
+                    self.current_inventory[product_id]["current_stock"] -= quantity
+                    line_total = unit_price * quantity
+                    line_profit = (unit_price - cost_to_make) * quantity
+                    num_item += 1
+                    flag = 1
+                else:
+                    print(
+                        f"Order for '{product_name}' is cancelled due to insufficient stocks. "
+                        f"(ID: {product_id}). Quantity Ordered: {quantity}, Current Stock: {current_stock}."
+                    )
+                    self.total_cancelled_items += 1
+                    quantity = 0
+
+                order_total += line_total
+                order_profit += line_profit
+
+                order_line_items.append(
+                    {
+                        "order_id": order_id,
+                        "product_id": product_id,
+                        "quantity": quantity,
+                        "unit_price": unit_price,
+                        "line_total": line_total,
+                    }
+                )
+            # # if no order is placed for this order_id, skip
+            # if flag == 0 and num_item == 0:
+            #     continue
+            orders.append(
+                {
+                    "order_id": order_id,
+                    "order_datetime": order_datetime,
+                    "customer_id": customer_id,
+                    "total_amount": order_total,
+                    "num_items": num_item,
+                }
+            )
+
+            daily_sales += order_total
+            daily_profit += order_profit
+
+        if orders:
+            orders_df = self.spark.createDataFrame(orders)
+            self.daily_orders_list.append(orders_df)
+        if order_line_items:
+            order_line_items_df = self.spark.createDataFrame(order_line_items)
+            self.daily_order_items_list.append(order_line_items_df)
+
+        daily_summary = {
+            "date": datetime.strptime(
+                orders[0]["order_datetime"], "%Y-%m-%dT%H:%M:%S.%f"
+            ).date(),
+            "num_orders": len(orders),
+            "total_sales": round(daily_sales, 2),
+            "total_profit": round(daily_profit, 2),
+        }
+        self.daily_summary_list.append(daily_summary)
+
+    def process_daily_transactions(self, transac: DataFrame) -> tuple:
+        self.generate_orders_line_summary(transac)
+
+        if self.daily_orders_list:
+            combined_orders = self.daily_orders_list[0]
+            for df in self.daily_orders_list[1:]:
+                combined_orders = combined_orders.union(df)
+            self.orders_df = combined_orders
+
+        if self.daily_order_items_list:
+            combined_order_items = self.daily_order_items_list[0]
+            for df in self.daily_order_items_list[1:]:
+                combined_order_items = combined_order_items.union(df)
+            self.order_line_items_df = combined_order_items
+
+        if self.daily_summary_list:
+            summary_schema = StructType(
+                [
+                    StructField("date", DateType(), True),
+                    StructField("num_orders", IntegerType(), True),
+                    StructField("total_sales", DoubleType(), True),
+                    StructField("total_profit", DoubleType(), True),
+                ]
+            )
+            self.daily_summary_df = self.spark.createDataFrame(
+                self.daily_summary_list, schema=summary_schema
+            )
+            self.daily_summary_df = self.daily_summary_df.orderBy("date")
+            print("\nDaily Summary:")
+            self.daily_summary_df.show()
+
+    def sort_orders(self, updated_inventory_df):
+        # Calculate total amount, number of items per order, round total_amount, format timestamp, and join with customers
+        self.order_line_items_df = self.order_line_items_df.select(
+            "order_id",
+            "product_id",
+            "quantity",
+            "unit_price",
+            F.format_number("line_total", 2).alias("line_total"),
+        ).orderBy(  # Select final columns
+            "order_id", "product_id"
+        )  # Sort by order_id and product_id
+        print("Order Line Items:")
+        self.order_line_items_df.show(5)
+
+        # ORDERS DF
+        self.orders_df = self.orders_df.select(
+            "order_id",
+            "order_datetime",
+            "customer_id",
+            F.format_number("total_amount", 2).alias("total_amount"),
+            "num_items",
+        ).orderBy("order_id")
+        print("Orders: ")
+        self.orders_df.show(5)
+
+        # PRODUCTS UPDATED DF
+        updated_inventory_df = updated_inventory_df.select(
+            "product_id",
+            "product_name",
+            "current_stock",
+        )
+        print("Products Updated: ")
+        updated_inventory_df.show(5)
+        return updated_inventory_df
+
+    def update_inventory_table(self) -> DataFrame:
+        """
+        Create a Spark DataFrame from the updated inventory.
+        This represents the products_updated table.
+        """
+        updated_inventory = []
+        for p_id, inv in self.current_inventory.items():
+            updated_inventory.append(
+                {
+                    "product_id": p_id,
+                    "product_name": inv["product_name"],
+                    "current_stock": inv["current_stock"],
+                }
+            )
+        inventory_df = self.spark.createDataFrame(updated_inventory)
+        return inventory_df.orderBy("product_id")
+
+    # --------------------------------------------------------SAVE TO CSV----------------------------------------------------------------
+
     def save_to_csv(self, df: DataFrame, output_path: str, filename: str) -> None:
         """
         Save DataFrame to a single CSV file.
@@ -482,7 +586,6 @@ class DataProcessor:
 
         # Create a temporary directory in the correct output path
         temp_dir = os.path.join(output_path, "_temp")
-        print(f"Temporary directory: {temp_dir}")  # Debugging output
 
         # Save to temporary directory
         df.coalesce(1).write.mode("overwrite").option("header", "true").csv(temp_dir)
@@ -496,147 +599,16 @@ class DataProcessor:
         # Clean up - remove the temporary directory
         shutil.rmtree(temp_dir)
 
-
-
-    '''
-HERE'''
-  
-    def join_transactions_and_products(self, transactions_df) -> None:
-        """Join transactions with product data"""
-        # Join transactions_df and products_df on product_id
-        joined_df = transactions_df.join(
-            self.products_df, 
-            transactions_df.product_id == self.products_df.product_id,
-            how='inner'
+    def save_outputs(self, config, updated_inventory_df):
+        self.save_to_csv(self.orders_df, config["output_path"], "orders.csv")
+        self.save_to_csv(
+            self.order_line_items_df,
+            config["output_path"],
+            "order_line_items.csv",
         )
-        # Select and rename necessary columns to create a "joined_df"
-        joined_df = joined_df.select(
-            F.col("transaction_id").alias("order_id"),
-            F.col("timestamp").alias("order_datetime"),
-            "customer_id",
-            "quantity",
-            transactions_df["product_id"], 
-            F.col("sales_price").alias("sales"),
-            F.col("cost_to_make").alias("cost")
+        self.save_to_csv(
+            self.daily_summary_df, config["output_path"], "daily_summary.csv"
         )
-
-        # Show joined data for debugging
-        joined_df.show(5)
-        return joined_df
-
-    def initialize_products(self, products_df):
-        self.products_df = products_df
-
-    def process(self, transactions_df):
-     update_product = self.products_df.select("product_id", "product_name", "stock")
-     update_product.show(5)
-     exploded_df = self.explode_transactions(transactions_df)
-     transac = self.join_transactions_and_products(exploded_df)
-     print(transac.columns)
-     # Calculate total amount, number of items per order, round total_amount, format timestamp, and join with customers
-     orders_df_sorted = (
-        transac.groupBy(
-                "order_id", "customer_id", "order_datetime"
-            )
-            .agg(
-                F.count("product_id").alias("num_items"),  # Count number of items
-                F.round(F.sum(F.col("quantity") * F.col("sales_price")), 2).alias(
-                    "total_amount"
-                ),  # Total amount per order and round it
-            )
-            .select(
-                F.col("order_id"),
-                F.col("order_datetime"),
-                "customer_id",
-                F.format_number("total_amount", 2).alias("total_amount"), 
-                "num_items",
-            )
-            .orderBy("order_id")  # Sort by transaction_id (order_id)
-         )
-     orders_df_sorted.show(5, truncate=False)  # Show first 5 rows of orders
-
-  
-    #  order_id|      order_datetime|customer_id|quantity|product_id|sales|cost|
-    #  self.process_orders1(transac)
-
-    def process_orders1(self, transactions_df: DataFrame) -> None:
-            """Process orders, handle inventory, and generate daily summary"""
-            cancelled_items_count = 0
-            daily_orders = []
-            daily_order_items = []
-            product_updates = []
-            # Select the specific columns from products_df and rename 'stock' to 'current_stock'
-            self.products_update_df = self.products_df.select(
-                "product_id", "product_name", "stock"        
-            ).withColumnRenamed("stock", "current_stock")  # Rename 'stock' to 'current_stock'
-
-            
-            for transaction in transactions_df.collect():  # Loop through each transaction (order)
-                order_id = transaction["order_id"]
-                order_datetime = transaction["order_datetime"]
-                customer_id = transaction["customer_id"]
-                product_id = transaction["product_id"]
-                product_qty = transaction["quantity"]
-                product_price = transaction["sales"]
-                    
-                # Step 1: Remove items with null quantity
-                if product_qty is None or int(product_qty) <= 0:
-                    continue  # Skip item
-
-                # Step 2: Check if there's sufficient inventory for the item
-                inventory = self.get_product_inventory(product_id)  # Assuming get_product_inventory() fetches current stock for product_id
-                product_qty, inventory = float(product_qty), float(inventory)
-                if inventory >= product_qty:
-                    # Sufficient inventory, proceed with the sale
-                    # line_total = product_qty * product_price
-                    # daily_order_items.append([order_id, product_id, product_qty, product_price, line_total])
-                    self.update_inventory(product_id, product_qty)
-                    print("updating")
-                    # product_updates.append([product_id, inventory - product_qty])  # Store updated inventory level
-                else:
-                    # Insufficient inventory, cancel the item
-                    cancelled_items_count += 1
-                    daily_order_items.append([order_id, product_id, 0, product_price, 0])  # Cancel the item in the order line
-                    print(f"⚠️ Item {product_id} (Order {order_id}) cancelled due to insufficient inventory.")
-                        
-                # Add order-level details for the summary
-                # total_order_value = sum(t["quantity"] * t["unit_price"] for t in transaction if t["quantity"] > 0)
-                # num_items = len(transaction["items"])
-                # daily_orders.append([order_id, order_datetime, customer_id, total_order_value, num_items])
-            # daily_order_items.show()
-            print("uodated")
-            self.products_update_df.show()
-            # Create DataFrames for the processed orders and items
-            # self.orders_df = self.spark.createDataFrame(daily_orders, ["order_id", "order_datetime", "customer_id", "total_amount", "num_items"])
-            # self.order_line_items_df = self.spark.createDataFrame(daily_order_items, ["order_id", "product_id", "quantity", "unit_price", "line_total"])
-            
-            # Update the product inventory
-            # self.products_update_df = self.spark.createDataFrame(product_updates, ["product_id", "updated_inventory"])
-
-            # Generate daily summary
-            # self.daily_summary_df = self.generate_daily_summary()
-
-            # Print summary
-            # self.print_daily_summary(self.orders_df, self.order_line_items_df, cancelled_items_count)
-
-    def get_product_inventory(self, product_id: int) -> int:
-            """Retrieve current inventory for a product"""
-            # Assuming current_inventory is a DataFrame with the product inventory details
-            inventory = self.products_update_df.filter(col("product_id") == product_id).collect()
-            if inventory:
-                return inventory[0]["current_stock"]
-            return 0
-
-    def update_inventory(self, product_id: int, quantity_sold: int) -> None:
-            """Update the inventory after processing an order"""
-            # Decrease the stock by the sold quantity
-            self.products_update_df = self.products_update_df.withColumn(
-                "current_stock", 
-                when(col("product_id") == product_id, col("current_stock").cast("double") - quantity_sold).otherwise(col("current_stock").cast("double"))
-            )
-            # Collect updated data for the specific product_id
-            updated_product = self.products_update_df.filter(col("product_id") == product_id).select("product_id", "current_stock").collect()
-
-            # Print the updated current stock for the product_id
-            if updated_product:
-                print(f"Product ID: {updated_product[0]['product_id']}, New Current Stock: {updated_product[0]['current_stock']}")
+        self.save_to_csv(
+            updated_inventory_df, config["output_path"], "products_updated.csv"
+        )
