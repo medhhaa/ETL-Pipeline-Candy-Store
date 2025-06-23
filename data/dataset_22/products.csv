@@ -1,0 +1,37 @@
+product_id,product_name,product_category,product_subcategory,product_shape,sales_price,cost_to_make,stock
+1,Sea Salt Crackle Brittle Rolls,Toffee/Caramel,Brittle,Rolls,8.68,4.62,4954
+2,Almond Shards Brittle Rolls,Toffee/Caramel,Brittle,Rolls,0.73,0.38,2021
+3,Sea Salt Crackle Brittle Slabs,Toffee/Caramel,Brittle,Slabs,9.31,4.21,4403
+4,Almond Shards Brittle Slabs,Toffee/Caramel,Brittle,Slabs,0.93,0.54,2898
+5,Sea Salt Crackle Squares Rolls,Toffee/Caramel,Squares,Rolls,5.62,2.4,2121
+6,Almond Shards Squares Rolls,Toffee/Caramel,Squares,Rolls,7.81,4.05,2875
+7,Sea Salt Crackle Squares Slabs,Toffee/Caramel,Squares,Slabs,3.31,1.46,3748
+8,Almond Shards Squares Slabs,Toffee/Caramel,Squares,Slabs,3.91,1.92,3491
+9,Sea Salt Crackle Chews Rolls,Toffee/Caramel,Chews,Rolls,7.04,3.91,2205
+10,Almond Shards Chews Rolls,Toffee/Caramel,Chews,Rolls,0.52,0.28,2874
+11,Sea Salt Crackle Chews Slabs,Toffee/Caramel,Chews,Slabs,2.59,1.53,2889
+12,Almond Shards Chews Slabs,Toffee/Caramel,Chews,Slabs,6.89,4.47,2120
+13,Sour Sugar Rings Mini,Gummies & Jellies,Rings,Mini,9.14,6.05,2995
+14,Translucent Rings Mini,Gummies & Jellies,Rings,Mini,9.51,4.23,3056
+15,Sour Sugar Rings Standard,Gummies & Jellies,Rings,Standard,4.53,2.42,4903
+16,Translucent Rings Standard,Gummies & Jellies,Rings,Standard,4.04,1.95,2735
+17,Sour Sugar Bears Mini,Gummies & Jellies,Bears,Mini,3.33,1.46,2454
+18,Translucent Bears Mini,Gummies & Jellies,Bears,Mini,1.64,0.91,2693
+19,Sour Sugar Bears Standard,Gummies & Jellies,Bears,Standard,8.88,6.11,3027
+20,Translucent Bears Standard,Gummies & Jellies,Bears,Standard,8.41,5.81,3937
+21,Sour Sugar Cubes Mini,Gummies & Jellies,Cubes,Mini,0.92,0.5,4829
+22,Translucent Cubes Mini,Gummies & Jellies,Cubes,Mini,5.39,2.22,4817
+23,Sour Sugar Cubes Standard,Gummies & Jellies,Cubes,Standard,5.59,3.36,2583
+24,Translucent Cubes Standard,Gummies & Jellies,Cubes,Standard,8.32,5.78,4985
+25,Coconut Classic Cones,Marshmallow,Classic,Cones,4.05,2.02,2035
+26,Graham Classic Cones,Marshmallow,Classic,Cones,6.95,4.72,4700
+27,Coconut Classic Cubes,Marshmallow,Classic,Cubes,6.55,4.13,3565
+28,Graham Classic Cubes,Marshmallow,Classic,Cubes,9.84,6.2,4834
+29,Coconut Fruit Cones,Marshmallow,Fruit,Cones,2.69,1.3,3832
+30,Graham Fruit Cones,Marshmallow,Fruit,Cones,1.29,0.63,2103
+31,Coconut Fruit Cubes,Marshmallow,Fruit,Cubes,4.54,3.1,4662
+32,Graham Fruit Cubes,Marshmallow,Fruit,Cubes,1.49,0.65,4638
+33,Coconut Dipped Cones,Marshmallow,Dipped,Cones,9.8,6.8,3999
+34,Graham Dipped Cones,Marshmallow,Dipped,Cones,1.42,0.79,4712
+35,Coconut Dipped Cubes,Marshmallow,Dipped,Cubes,5.37,2.18,4975
+36,Graham Dipped Cubes,Marshmallow,Dipped,Cubes,9.03,5.63,4051

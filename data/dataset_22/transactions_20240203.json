@@ -1,0 +1,5782 @@
+[
+  {
+    "transaction_id": 62051501,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T13:52:48.795356",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 44317980,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T09:31:50.792227",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 69984333,
+    "customer_id": 9,
+    "timestamp": "2024-02-03T04:49:23.104254",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 39622218,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T06:27:39.772122",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 57914844,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T19:21:39.079654",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 86576464,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T19:34:01.945039",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": null
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 1173238,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T01:14:13.742373",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 20218337,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T19:31:21.911688",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 52364886,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T02:44:47.543542",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 28686387,
+    "customer_id": 1,
+    "timestamp": "2024-02-03T04:14:51.050083",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 41278,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T02:53:52.397847",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 17113369,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T09:51:57.160194",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 46790120,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T12:30:17.705656",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 59358304,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T19:41:44.096241",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 22061422,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T17:22:56.594037",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 25367794,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T00:23:42.671612",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 50867739,
+    "customer_id": 9,
+    "timestamp": "2024-02-03T15:03:26.621166",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 91123862,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T02:23:34.284806",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 60828893,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T05:20:42.457561",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 98557924,
+    "customer_id": 9,
+    "timestamp": "2024-02-03T14:16:06.201082",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 36073231,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T18:37:15.445093",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 60979012,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T19:23:31.195083",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 22815411,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T08:35:51.619542",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 11643233,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T00:34:09.786490",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 61717684,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T20:06:31.276959",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 64659495,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T10:12:13.854701",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 82260493,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T22:02:43.958922",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 57872537,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T13:57:04.787737",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 41921144,
+    "customer_id": 4,
+    "timestamp": "2024-02-03T04:18:01.232428",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 37917964,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T12:31:36.798523",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 89217394,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T20:47:02.355382",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 84143414,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T07:58:12.036128",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 36858434,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T00:59:36.088925",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 61540918,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T05:52:29.600372",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 52421138,
+    "customer_id": 19,
+    "timestamp": "2024-02-03T22:42:50.251779",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 5447148,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T14:30:50.780696",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 82289565,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T09:11:43.557977",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 71255683,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T17:52:04.796714",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 91653112,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T20:41:55.433819",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 35584713,
+    "customer_id": 2,
+    "timestamp": "2024-02-03T12:15:12.374113",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 7000506,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T15:40:46.647534",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 41422243,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T23:29:55.916501",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 84095019,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T00:23:45.719971",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 74578958,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T03:27:25.549260",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 55372132,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T02:26:14.087924",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 59183579,
+    "customer_id": 1,
+    "timestamp": "2024-02-03T21:49:39.866684",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 36631540,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T18:14:43.753798",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 36813191,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T11:04:38.811030",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 33913369,
+    "customer_id": 23,
+    "timestamp": "2024-02-03T19:31:19.737196",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 94866686,
+    "customer_id": 23,
+    "timestamp": "2024-02-03T04:22:09.535004",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 39645933,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T23:17:05.365380",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 95938891,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T04:26:03.378444",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 67143483,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T10:17:03.824334",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": null
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 17802758,
+    "customer_id": 27,
+    "timestamp": "2024-02-03T11:37:36.356766",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 69834744,
+    "customer_id": 21,
+    "timestamp": "2024-02-03T21:12:34.374462",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 31516937,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T04:55:47.828612",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 29000606,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T16:10:02.808161",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 98569398,
+    "customer_id": 21,
+    "timestamp": "2024-02-03T15:18:18.319914",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 12008956,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T08:36:59.753653",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 35923525,
+    "customer_id": 26,
+    "timestamp": "2024-02-03T11:55:31.949713",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 23577967,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T20:36:34.792853",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 20418839,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T18:38:15.267132",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": null
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 82460720,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T01:11:51.885149",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 32044686,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T14:51:51.740659",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 18986661,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T11:29:42.452562",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 67171930,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T23:41:05.294685",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 50613691,
+    "customer_id": 2,
+    "timestamp": "2024-02-03T08:10:25.285753",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 5792881,
+    "customer_id": 23,
+    "timestamp": "2024-02-03T12:36:01.122432",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 83374968,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T23:58:39.037603",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 28594670,
+    "customer_id": 27,
+    "timestamp": "2024-02-03T08:23:51.845971",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 53925876,
+    "customer_id": 9,
+    "timestamp": "2024-02-03T19:16:11.868123",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 95072853,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T16:07:24.897010",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 81841211,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T16:28:06.802275",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 13637149,
+    "customer_id": 26,
+    "timestamp": "2024-02-03T21:14:24.860919",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 44224886,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T14:56:28.933852",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 33440444,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T23:05:04.511321",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 56762260,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T20:49:34.215977",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 97417099,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T13:25:43.198701",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 57805173,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T09:05:34.544831",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 89886089,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T10:15:54.783617",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 4901714,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T17:23:53.750057",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 48266437,
+    "customer_id": 19,
+    "timestamp": "2024-02-03T13:17:17.051420",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 60410871,
+    "customer_id": 11,
+    "timestamp": "2024-02-03T13:26:42.010518",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 59123903,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T06:06:57.070197",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 29773778,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T19:35:05.437664",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 73443132,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T17:16:17.397145",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 43524412,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T12:54:51.934391",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 45746553,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T02:19:16.104169",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 7615414,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T19:24:48.450101",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 75741754,
+    "customer_id": 27,
+    "timestamp": "2024-02-03T01:39:01.136581",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 14790896,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T22:30:37.799643",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 3370536,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T07:56:48.113762",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 46699938,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T23:58:51.094079",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 17247603,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T05:51:23.125654",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 79322205,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T13:58:04.444659",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 66174228,
+    "customer_id": 19,
+    "timestamp": "2024-02-03T14:45:56.480895",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 165899,
+    "customer_id": 2,
+    "timestamp": "2024-02-03T14:11:27.466509",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 88318741,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T00:52:07.641349",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 62673407,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T16:21:21.978158",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 27285184,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T18:51:10.073957",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 8028239,
+    "customer_id": 23,
+    "timestamp": "2024-02-03T06:33:54.262329",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 4122977,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T10:24:29.822449",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 34296085,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T04:38:33.173422",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 55557497,
+    "customer_id": 11,
+    "timestamp": "2024-02-03T15:07:03.497992",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 395731,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T01:14:05.573976",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 23145394,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T23:33:34.849493",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 35941742,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T02:39:43.220614",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 31913212,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T08:17:41.796890",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 54024438,
+    "customer_id": 1,
+    "timestamp": "2024-02-03T22:56:23.671683",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 30537168,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T08:14:12.795804",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 67133102,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T23:46:14.476136",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 47776816,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T16:42:27.843607",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 20525197,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T00:59:56.589991",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 97558282,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T01:32:00.255175",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 10896126,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T06:56:31.097422",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 2148818,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T08:27:06.739877",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 66282363,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T01:35:42.656864",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 86895693,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T03:29:10.172759",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": null
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 9149334,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T02:15:50.895038",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 59881882,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T09:38:41.276559",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 33709690,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T08:56:52.787576",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": null
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 37790137,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T03:24:45.889252",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 94712053,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T23:02:21.864715",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 45857009,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T05:52:26.252116",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 15011887,
+    "customer_id": 24,
+    "timestamp": "2024-02-03T12:46:42.090334",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 46561740,
+    "customer_id": 1,
+    "timestamp": "2024-02-03T15:56:40.357317",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 26266185,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T19:25:06.012912",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 75242033,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T12:40:29.412388",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 90150000,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T20:27:05.956837",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 36441229,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T07:21:45.377513",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 73918157,
+    "customer_id": 1,
+    "timestamp": "2024-02-03T17:23:00.226035",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 92932650,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T00:54:25.644480",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": null
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 13974987,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T15:21:45.989162",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": null
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 50987526,
+    "customer_id": 26,
+    "timestamp": "2024-02-03T22:07:52.759778",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 37673528,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T12:49:25.087237",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 92928466,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T15:47:36.839214",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 9773804,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T13:00:34.946947",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 3950391,
+    "customer_id": 2,
+    "timestamp": "2024-02-03T00:01:55.909284",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 57475650,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T08:05:53.492267",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 13094736,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T02:09:49.316736",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 29335923,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T01:01:01.479362",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 98304686,
+    "customer_id": 21,
+    "timestamp": "2024-02-03T06:37:40.935310",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 4169267,
+    "customer_id": 27,
+    "timestamp": "2024-02-03T15:07:15.714198",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 16397279,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T03:10:11.597971",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 18429560,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T14:18:02.172801",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 19131201,
+    "customer_id": 23,
+    "timestamp": "2024-02-03T05:35:53.635665",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 48900677,
+    "customer_id": 11,
+    "timestamp": "2024-02-03T17:20:21.070007",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 60700514,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T23:26:43.032319",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 90415836,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T00:20:57.765955",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 22898237,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T09:59:25.532924",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 63079494,
+    "customer_id": 19,
+    "timestamp": "2024-02-03T18:10:42.479972",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 52160517,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T09:58:06.824232",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": null
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 30984910,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T18:02:01.191115",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 66608138,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T10:46:30.463899",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 83610530,
+    "customer_id": 2,
+    "timestamp": "2024-02-03T12:56:31.371925",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 59731763,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T09:08:28.880879",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 36601257,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T16:22:14.865422",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 49188400,
+    "customer_id": 26,
+    "timestamp": "2024-02-03T06:17:27.016974",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 31537993,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T01:50:31.198513",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 16865506,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T11:46:57.735299",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 80255012,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T04:11:26.572583",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 43871799,
+    "customer_id": 2,
+    "timestamp": "2024-02-03T02:09:40.019433",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": null
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 42916458,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T05:38:11.708624",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 37737497,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T21:29:27.680139",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 58098251,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T14:05:30.110496",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 73893307,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T02:45:23.914166",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 97063207,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T19:23:11.972509",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 14400816,
+    "customer_id": 21,
+    "timestamp": "2024-02-03T00:45:41.520603",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 85385834,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T22:28:05.623044",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 85881357,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T19:53:16.942751",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 39220214,
+    "customer_id": 19,
+    "timestamp": "2024-02-03T11:24:18.795952",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 87143989,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T01:06:39.723341",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 94876684,
+    "customer_id": 11,
+    "timestamp": "2024-02-03T22:49:28.116928",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 85442764,
+    "customer_id": 21,
+    "timestamp": "2024-02-03T09:18:59.042764",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 58103858,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T23:53:43.519999",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 26474262,
+    "customer_id": 19,
+    "timestamp": "2024-02-03T11:34:13.582557",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 58200741,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T21:41:28.997163",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 18650066,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T22:16:04.944303",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 31463071,
+    "customer_id": 19,
+    "timestamp": "2024-02-03T17:55:28.858006",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 24413920,
+    "customer_id": 4,
+    "timestamp": "2024-02-03T23:48:33.103264",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 56005224,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T13:39:19.804931",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 82545402,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T05:18:13.068124",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": null
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 43846569,
+    "customer_id": 10,
+    "timestamp": "2024-02-03T12:30:56.723956",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 60278799,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T00:09:12.542295",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 81496167,
+    "customer_id": 27,
+    "timestamp": "2024-02-03T04:45:00.659974",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 50423998,
+    "customer_id": 4,
+    "timestamp": "2024-02-03T03:55:34.848653",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 51749953,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T10:55:13.370147",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 95546759,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T02:45:54.844968",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 39547574,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T22:23:10.760848",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 80124483,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T12:48:51.525141",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": null
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 60886684,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T22:07:20.494178",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 11285602,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T05:48:54.308866",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 53143708,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T22:52:17.049927",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 56270541,
+    "customer_id": 21,
+    "timestamp": "2024-02-03T05:47:16.651298",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 32428932,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T07:56:31.723004",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 33317777,
+    "customer_id": 1,
+    "timestamp": "2024-02-03T01:20:16.515672",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 17948795,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T22:34:25.417166",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Sea Salt Crackle Brittle Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 83675723,
+    "customer_id": 2,
+    "timestamp": "2024-02-03T05:25:15.882837",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 16143966,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T08:57:15.919842",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 41177227,
+    "customer_id": 27,
+    "timestamp": "2024-02-03T21:04:14.400447",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": null
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 1090331,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T15:36:49.332048",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 3819974,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T01:46:12.188442",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 76043671,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T22:47:43.837722",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 51620124,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T03:32:28.755599",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 56171703,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T20:29:44.799532",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 8642652,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T03:54:11.175713",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 81268242,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T00:19:56.781181",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 67884292,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T03:32:30.509019",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 22699793,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T07:41:57.282819",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 81937418,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T09:53:09.642030",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 57987102,
+    "customer_id": 23,
+    "timestamp": "2024-02-03T12:58:11.689047",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": null
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 46557930,
+    "customer_id": 9,
+    "timestamp": "2024-02-03T23:51:15.891751",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 7233809,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T02:51:16.843691",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 27267552,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T05:51:14.530138",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 3261510,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T21:23:28.093648",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 77129442,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T20:21:58.278326",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 59908715,
+    "customer_id": 9,
+    "timestamp": "2024-02-03T02:21:13.315934",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 73991772,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T08:58:03.207531",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": null
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Translucent Rings Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 67516779,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T08:27:06.907308",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 86396908,
+    "customer_id": 30,
+    "timestamp": "2024-02-03T10:03:58.176403",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 19404743,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T19:22:42.156660",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 59303011,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T23:48:42.053157",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 22737786,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T01:25:06.830902",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 96252962,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T08:46:02.886734",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 32285029,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T02:35:34.211325",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 76303749,
+    "customer_id": 25,
+    "timestamp": "2024-02-03T15:10:20.920108",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": null
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 86279501,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T20:10:18.423483",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 57897718,
+    "customer_id": 20,
+    "timestamp": "2024-02-03T16:41:17.049894",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Sour Sugar Rings Standard",
+        "qty": null
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 23432341,
+    "customer_id": 11,
+    "timestamp": "2024-02-03T09:58:04.437627",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 48240970,
+    "customer_id": 21,
+    "timestamp": "2024-02-03T13:52:06.932452",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 80087029,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T06:49:35.624024",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 7370822,
+    "customer_id": 23,
+    "timestamp": "2024-02-03T12:21:49.900441",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 20910439,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T00:07:39.550945",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 53455185,
+    "customer_id": 14,
+    "timestamp": "2024-02-03T07:40:22.348773",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": null
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 14690145,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T00:54:27.627502",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 31944344,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T21:08:26.322621",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 72500239,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T01:32:58.354207",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 74896495,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T23:12:22.195830",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 2
+      },
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Graham Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 77616697,
+    "customer_id": 11,
+    "timestamp": "2024-02-03T18:04:43.060456",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 54752348,
+    "customer_id": 26,
+    "timestamp": "2024-02-03T01:31:14.192378",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Translucent Cubes Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Coconut Fruit Cubes",
+        "qty": 4
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 1
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 77071718,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T05:48:35.144008",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Translucent Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 58604684,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T18:06:14.301822",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Sour Sugar Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 8,
+        "product_name": "Almond Shards Squares Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 59916424,
+    "customer_id": 7,
+    "timestamp": "2024-02-03T12:56:22.923697",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 30,
+        "product_name": "Graham Fruit Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 58181297,
+    "customer_id": 27,
+    "timestamp": "2024-02-03T02:24:25.615657",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 62871432,
+    "customer_id": 3,
+    "timestamp": "2024-02-03T18:12:02.535776",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 57871940,
+    "customer_id": 29,
+    "timestamp": "2024-02-03T00:13:23.770023",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 7,
+        "product_name": "Sea Salt Crackle Squares Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 2452600,
+    "customer_id": 22,
+    "timestamp": "2024-02-03T16:14:46.798908",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Sea Salt Crackle Squares Rolls",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 22652586,
+    "customer_id": 12,
+    "timestamp": "2024-02-03T20:39:16.660325",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": null
+      },
+      {
+        "product_id": 29,
+        "product_name": "Coconut Fruit Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 96294660,
+    "customer_id": 6,
+    "timestamp": "2024-02-03T00:18:36.025992",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 61817153,
+    "customer_id": 18,
+    "timestamp": "2024-02-03T02:58:26.102957",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": null
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 47957512,
+    "customer_id": 13,
+    "timestamp": "2024-02-03T10:27:00.257777",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 1
+      },
+      {
+        "product_id": 25,
+        "product_name": "Coconut Classic Cones",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 28727823,
+    "customer_id": 17,
+    "timestamp": "2024-02-03T00:33:59.063908",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": null
+      },
+      {
+        "product_id": 33,
+        "product_name": "Coconut Dipped Cones",
+        "qty": 4
+      },
+      {
+        "product_id": 32,
+        "product_name": "Graham Fruit Cubes",
+        "qty": 5
+      },
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 34274892,
+    "customer_id": 26,
+    "timestamp": "2024-02-03T19:39:43.757036",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Almond Shards Brittle Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 77106771,
+    "customer_id": 16,
+    "timestamp": "2024-02-03T03:42:56.693718",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Almond Shards Squares Rolls",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Sour Sugar Bears Mini",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Sea Salt Crackle Brittle Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Sea Salt Crackle Chews Rolls",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 73388692,
+    "customer_id": 5,
+    "timestamp": "2024-02-03T07:28:33.672184",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Translucent Bears Mini",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Almond Shards Chews Rolls",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Translucent Bears Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 3
+      },
+      {
+        "product_id": 12,
+        "product_name": "Almond Shards Chews Slabs",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 93769725,
+    "customer_id": 1,
+    "timestamp": "2024-02-03T21:11:06.276998",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Translucent Rings Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Graham Classic Cubes",
+        "qty": null
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 78700721,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T18:13:35.840720",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Graham Dipped Cones",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Sour Sugar Rings Mini",
+        "qty": 3
+      },
+      {
+        "product_id": 27,
+        "product_name": "Coconut Classic Cubes",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Sea Salt Crackle Chews Slabs",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Almond Shards Brittle Rolls",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 99616011,
+    "customer_id": 15,
+    "timestamp": "2024-02-03T04:16:27.453154",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 48324679,
+    "customer_id": 28,
+    "timestamp": "2024-02-03T00:17:14.937469",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Sour Sugar Cubes Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 35,
+        "product_name": "Coconut Dipped Cubes",
+        "qty": 1
+      },
+      {
+        "product_id": 21,
+        "product_name": "Sour Sugar Cubes Mini",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 17841299,
+    "customer_id": 8,
+    "timestamp": "2024-02-03T11:20:03.402119",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Graham Classic Cones",
+        "qty": 1
+      }
+    ]
+  }
+]
