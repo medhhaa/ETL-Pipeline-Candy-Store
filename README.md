@@ -37,12 +37,11 @@ project-root/
 ├── .gitignore        # Git ignore patterns
 ├── .gitlab-ci.yml    # GitLab CI/CD configuration
 ├── data/
-│   ├── answers_22/   # Time series implementation
 │   ├── dataset_22/
 │   ├── outputs/
 ├── src/
-│    ├── time_series.py   # Time series implementation
-│    ├── main.py          # Main application code
+│    ├── time_series.py      # Time series implementation
+│    ├── main.py             # Main application code
 │    └── data_processor.py   # Data processing implementation
 ├── candy_dag.py
 ├── setup.py
